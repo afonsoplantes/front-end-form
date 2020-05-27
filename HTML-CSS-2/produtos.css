@@ -29,6 +29,11 @@ nav a {
 	font-size: 22px;
 	text-decoration: none;
 }
+/* Alterando a cor do link quando passar o mouse por cima */
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
 
 /*== Estilos do conteudo principal ==*/
 
@@ -50,6 +55,22 @@ nav a {
 	/* background-color: #CCCCCC; */
 	border: 2px #000000 solid;
 	border-radius: 10px;
+}
+/* Modificando a borda das listas */
+.produtos li:hover {
+    border-color: #C78C19;
+}
+/* Quando clicar */
+.produtos li:active {
+    border-color: #088C19;    
+}
+/* Muda o tamanho da fonte quando passa o mouse por cima */
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos li:active h2 {
+    color: rgb(200, 15, 15); 
 }
 
 .produtos h2 {
