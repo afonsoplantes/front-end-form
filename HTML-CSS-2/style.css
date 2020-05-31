@@ -34,16 +34,32 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* ******************** */
+/*==Conteudo principal==*/
+.nossa-loja {
+	background: rgba(116, 140, 140, 0.8);
+	padding: 10px;
+}
 
- #banner { 
+.nossa-loja h1 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0px 0 10px;
+}
+#banner { 
 	width:100%;
- }  
+}  
 
-
-/* 
 .principal{
 	background: #CCCCCC;
 	padding: 30px;
+}
+
+.principal h2 {
+	font-size: 25px;
+	margin: 0 0 5px;
+	font-weight: bold;
 }
 
 .titulo-principal {
@@ -54,7 +70,7 @@ nav a:hover {
 	text-align: center
 }
 
-p {
+main p {
 	text-align: center;
 }
 
@@ -75,7 +91,13 @@ em strong {
 	padding: 20px;
 }
 
-ul {
+.beneficios h3 {
+	font-size: 20px;
+	margin: 0 0 15px;
+	font-weight: bold;
+}
+
+.beneficios ul {
 	display: inline-block;
 	vertical-align: top;
 	width: 20%;
@@ -84,4 +106,20 @@ ul {
 
 .imagembeneficios {
 	width: 50%;
-} */
+}
+
+
+/*== Estilos do Rodapé ==*/
+footer {
+	background: url("bg.jpg");
+	text-align: center;
+	padding: 40px 0;
+
+}
+
+.copyright {
+
+	color: whitesmoke;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
