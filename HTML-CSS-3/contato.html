@@ -21,9 +21,38 @@
             </nav>
         </div>
     </header>
-    <!-- Conteudo principal -->
-    <main>
-        
+    <!-- Conteudo principal Contatos -->
+    <main class="contatos">
+        <form>
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome">
+    
+            <label for="email">Email</label>
+            <input type="text" id="email">
+    
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone">
+            
+            <div class="radio-botoms">
+                <p>Como você prefere o nosso contato?</p>
+                <label for="radio-telefone">Telefone</label>
+                <input type="radio" name="contato" id="radio-telefone">
+
+                <label for="radio-email">Email</label>
+                <input type="radio" name="contato" id="radio-email">
+
+                <label for="radio-whatsapp">Whatsapp</label>
+                <input type="radio" name="contato" id="radio-whatsapp">
+            </div>
+
+            <textarea name="" id="" cols="60" rows="10"></textarea>
+            
+            <label for="receber-email"> <input type="checkbox" id="receber-email"> Gostaria de receber novidades ppor e-mail?</label>
+
+            <input type="submit" value="Enviar formulário">
+
+
+        </form>
     </main>
     <!-- Rodape -->
     <footer>
