@@ -1,0 +1,29 @@
+/* Estilos do corpo da página */
+body{
+    background: whitesmoke;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+/* Estilos do cabeçalho */
+header {
+    position: relative; 
+    background: rgb(223, 221, 221);
+    padding: 10px 0;
+}
+
+/* Estilos do conteudo principal */
+main {
+	position: relative;
+}
+
+a{   
+    color: #0645AD;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(81, 8, 83);
+    text-transform: uppercase;
+    text-decoration: underline;
+}
