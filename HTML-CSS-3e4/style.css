@@ -50,12 +50,15 @@ nav a:hover {
     text-align: center;
 	font-size: 2em;
 	font-weight: bold;
-    margin: 0 0 1em;
+	margin: 0 0 1em;
+	text-shadow: 1px 1px 2px #000000;
 }
 
 .principal{
 	background: #FEFEFE;
+	width: 940px;
 	padding: 3em 0;
+	margin: 0 auto;
 }
 
 .principal p {
@@ -89,6 +92,7 @@ nav a:hover {
 .beneficios {
 	background: #888888;
 	padding: 3em 0;
+	margin: 0 auto;
 }
 
 .beneficios-conteudo {
@@ -117,10 +121,15 @@ nav a:hover {
 
 .imagembeneficios {
 	width: 60%;
+	opacity: 1;
+	transition: 1s;
+	box-shadow: 10px 10px 5px 0 #000000;
+	border-radius: 5px;
 }
 
 .imagembeneficios:hover {
-	width: 50%;
+	opacity: 0.3;
+	
 }
 
 .video{
@@ -134,7 +143,7 @@ nav a:hover {
 .produtos {
 	width: 940px;
 	margin: 0 auto;
-	padding: 50px 0;
+	padding: 3em 0;
 }
 
 .produtos li {
@@ -259,4 +268,53 @@ thead {
 td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
+}
+
+
+/* Media querys */
+@media screen and (max-width: 940px) {
+	/* Todas as paginas */
+	.caixa, .principal, .beneficios-conteudo, .mapa-conteudo, .video, .produtos, .contatos{
+		width: 95vw;
+	}
+
+	.principal, .beneficios, .mapa, .produtos, .contatos {
+		padding: 1.5em 0;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+		text-align: center;
+	}
+
+	/* Pagina inicial */
+	.beneficios-lista, .imagembeneficios {
+		width: 90%;
+		margin: 0 5%;
+	}
+
+	/* pagina de produtos */
+	.produtos li {
+		display: inline-block;
+		text-align: center;
+		width: 90%;
+		margin: 5% 5%;
+	}
+
+	/* Ppagina de contatos */
+	.input-padrao {
+		display: block;
+		margin: 5px 5px 20px;
+		padding: 10px 25px;
+		width: 80%;
+	}
+
+	.enviar-formulario {
+		width: 70%;
+	}
+
 }

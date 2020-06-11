@@ -6,6 +6,8 @@
     <title>Contatos - Barbearia Alura</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <!-- Incorporando fontes -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Cabeçalho -->
@@ -33,7 +35,8 @@
             <label for="telefone">Telefone</label>
             <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
             
-            <textarea name="mensagem" id="mensagem" cols="60" rows="10" class="input-padrao"></textarea>
+            <label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
             
             <fieldset class="radio-botoms">
                 <legend>Como você prefere o nosso contato?</legend>
@@ -92,7 +95,6 @@
                 </tr>
             </tbody>
         </table>
-        
     </main>
     <!-- Rodape -->
     <footer>
