@@ -16,6 +16,8 @@ header {
 	margin: 0 auto;
 }
 
+
+
 nav {
 	position: absolute;
 	top: 110px;
@@ -56,9 +58,13 @@ nav a:hover {
 }
 
 .principal{
-	background: #683939;
-	width: 940px;
+	background: #f6dd6d;
 	padding: 3em 0;
+	/* margin: 0 auto; */
+}
+
+.principal-conteudo {
+	width: 940px;
 	margin: 0 auto;
 }
 
@@ -275,7 +281,7 @@ td, th {
 /* Media querys */
 @media screen and (max-width: 940px) {
 	/* Todas as paginas */
-	.caixa, .principal, .beneficios-conteudo, .mapa-conteudo, .video, .produtos, .contatos{
+	.caixa, .principal-conteudo, .beneficios-conteudo, .mapa-conteudo, .video, .produtos, .contatos{
 		width: 95vw;
 	}
 
